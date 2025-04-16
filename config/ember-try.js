@@ -8,10 +8,10 @@ module.exports = async function () {
     usePnpm: true,
     scenarios: [
       {
-        name: 'ember-lts-4.4',
+        name: 'ember-lts-4.8',
         npm: {
           devDependencies: {
-            'ember-source': '~4.4.0',
+            'ember-source': '~4.8.0',
           },
         },
       },
@@ -42,24 +42,16 @@ module.exports = async function () {
       {
         name: 'ember-release',
         npm: {
-          dependencies: {
-            'ember-auto-import': '^2.0.0',
-          },
           devDependencies: {
             'ember-source': await getChannelURL('release'),
-            webpack: '^5.0.0',
           },
         },
       },
       {
         name: 'ember-beta-failing',
         npm: {
-          dependencies: {
-            'ember-auto-import': '^2.0.0',
-          },
           devDependencies: {
             'ember-source': await getChannelURL('beta'),
-            webpack: '^5.0.0',
           },
         },
         allowedToFail: true,
@@ -67,12 +59,8 @@ module.exports = async function () {
       {
         name: 'ember-canary-failing',
         npm: {
-          dependencies: {
-            'ember-auto-import': '^2.0.0',
-          },
           devDependencies: {
             'ember-source': await getChannelURL('canary'),
-            webpack: '^5.0.0',
           },
         },
         allowedToFail: true,
