@@ -9,6 +9,22 @@ All notable changes to this project will be documented in this file.
 
 
 
+
+## v0.25.0 (2026-07-03)
+
+#### :boom: Breaking Change
+* [#1022](https://github.com/chrislopresto/ember-freestyle/pull/1022) Remove deprecated use of inject ([@gvdp](https://github.com/gvdp))
+
+#### :bug: Bug Fix
+* [#1029](https://github.com/chrislopresto/ember-freestyle/pull/1029) Run release deploy under Volta-pinned Node ([@lukemelia](https://github.com/lukemelia))
+
+#### :house: Internal
+* [#1029](https://github.com/chrislopresto/ember-freestyle/pull/1029) Run release deploy under Volta-pinned Node ([@lukemelia](https://github.com/lukemelia))
+
+#### Committers: 2
+- Luke Melia ([@lukemelia](https://github.com/lukemelia))
+- [@gvdp](https://github.com/gvdp)
+
 ## v0.24.0 (2026-04-21)
 
 #### :boom: Breaking Change
