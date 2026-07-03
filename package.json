@@ -140,14 +140,15 @@
   },
   "pnpm": {
     "overrides": {
-      "testem": "<3.19.0"
+      "testem": "<3.19.0",
+      "ember-cli-htmlbars": "^7.0.0"
     }
   },
   "engines": {
     "node": ">= 20"
   },
   "volta": {
-    "node": "20.14.0",
+    "node": "22.23.1",
     "pnpm": "9.2.0"
   },
   "publishConfig": {

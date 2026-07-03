@@ -44,6 +44,7 @@ module.exports = async function () {
         npm: {
           dependencies: {
             'ember-auto-import': '^2.13.0',
+            'ember-cli-htmlbars': '^7.0.0',
           },
           devDependencies: {
             'ember-cli': '~6.11.1',
@@ -53,9 +54,6 @@ module.exports = async function () {
             overrides: {
               'ember-cli-htmlbars': '^7.0.0',
             },
-          },
-          volta: {
-            node: '22.23.1',
           },
         },
       },
