@@ -40,6 +40,26 @@ module.exports = async function () {
         },
       },
       {
+        name: 'ember-7.0',
+        npm: {
+          dependencies: {
+            'ember-auto-import': '^2.13.0',
+          },
+          devDependencies: {
+            'ember-cli': '~6.11.1',
+            'ember-source': '~7.0.0',
+          },
+          pnpm: {
+            overrides: {
+              'ember-cli-htmlbars': '^7.0.0',
+            },
+          },
+          volta: {
+            node: '22.23.1',
+          },
+        },
+      },
+      {
         name: 'ember-release',
         npm: {
           dependencies: {
